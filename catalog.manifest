@@ -1,0 +1,4 @@
+NAME=kiwi-web-catalog
+DESCRIPTION=The Kiwi Network web catalog: hubs built on kiwi-framework, the apps they ship, and the framework itself
+HOMEPAGE=https://github.com/derlocke-ng/kiwi-web-catalog
+MAINTAINER=derlocke-ng

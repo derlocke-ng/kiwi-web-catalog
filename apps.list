@@ -1,0 +1,31 @@
+# The Kiwi Network web catalog: the same shape as kiwi-catalog (one git URL
+# per line, optional key=value options after it), for the web side of the
+# network. Every entry's repository carries a kiwi.manifest; its CATEGORY
+# says what the entry is:
+#
+#   Framework   the engine a hub is built on (kiwi-framework)
+#   Hub         a distribution: one hub, built on the framework, deployed somewhere
+#   App         app code a hub can mount; it lives in its own repository, or in
+#               a hub's repository under the path= option
+#
+# Options:
+#   path=<dir>       the app's folder inside the repository (apps in a hub's repo)
+#   ref=<tag>        pin to an exact version; otherwise the latest version tag, else HEAD
+#   branch=<name>    track a branch instead of release tags
+#
+# This catalog is read by the web tooling (a hub importing another hub's app
+# is one line here plus one mount in its distribution.js). The entries are not
+# desktop apps: do not add this catalog to the kiwi updater.
+
+# frameworks
+https://github.com/derlocke-ng/kiwi-framework.git
+
+# hubs
+https://github.com/derlocke-ng/armory.git
+
+# apps shipped by Armory
+https://github.com/derlocke-ng/armory.git path=apps/loadout
+https://github.com/derlocke-ng/armory.git path=apps/devboard
+https://github.com/derlocke-ng/armory.git path=apps/payload
+https://github.com/derlocke-ng/armory.git path=apps/pongjs
+https://github.com/derlocke-ng/armory.git path=apps/enigmajs
