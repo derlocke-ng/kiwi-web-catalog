@@ -31,3 +31,4 @@ https://github.com/derlocke-ng/armory.git path=apps/devboard
 https://github.com/derlocke-ng/armory.git path=apps/uplink
 https://github.com/derlocke-ng/armory.git path=apps/payload
 https://github.com/derlocke-ng/armory.git path=apps/pongjs
+https://github.com/derlocke-ng/armory.git path=apps/calendar
