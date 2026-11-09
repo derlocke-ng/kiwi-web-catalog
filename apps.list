@@ -25,7 +25,8 @@ https://github.com/derlocke-ng/armory.git
 
 # apps shipped by Armory
 https://github.com/derlocke-ng/armory.git path=apps/loadout
+https://github.com/derlocke-ng/armory.git path=apps/outpost
 https://github.com/derlocke-ng/armory.git path=apps/devboard
+https://github.com/derlocke-ng/armory.git path=apps/uplink
 https://github.com/derlocke-ng/armory.git path=apps/payload
 https://github.com/derlocke-ng/armory.git path=apps/pongjs
-https://github.com/derlocke-ng/armory.git path=apps/enigmajs
